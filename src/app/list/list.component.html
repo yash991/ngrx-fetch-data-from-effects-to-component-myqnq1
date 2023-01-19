@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let item of products$ | async">
+    <span>{{item.productName}}</span>
+    <p>{{item.description}}</p>
+  </li>
+</ul>
